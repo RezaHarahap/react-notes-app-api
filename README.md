@@ -1,44 +1,30 @@
-# React Notes App API
+# RuangCatat — Submission React Fundamental
 
-Repository ini berisi project **Belajar Fundamental Aplikasi Web dengan React** versi yang menggunakan REST API.
+Aplikasi SPA catatan pribadi yang menggunakan Dicoding Notes API, React Context, dan Hooks.
 
-## Fitur
-
-- Registrasi pengguna
-- Login dan autentikasi
-- Menampilkan catatan dari API
-- Menambahkan catatan
-- Melihat detail catatan
-- Mengarsipkan dan membatalkan arsip
-- Menghapus catatan
-- Pencarian catatan
-- Context untuk state aplikasi
-- Custom hooks
-- Loading indicator
-- Toast notification
-- Routing dan protected page
-
-## Menjalankan project
+## Menjalankan proyek
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+Untuk memeriksa production build:
 
 ```bash
 npm run build
+npm run preview
 ```
 
-## Teknologi
+## Fitur
 
-- React
-- React Router
-- Vite
-- JavaScript
-- REST API
-- Context API
-- CSS
+- Registrasi, login, penyimpanan access token, dan logout
+- Protected routes dan pemuatan profil pengguna
+- Daftar, pencarian, detail, tambah, hapus, arsip, dan batal arsip catatan
+- Loading indicator dan notifikasi hasil operasi
+- Tema terang/gelap berbasis Context yang persisten
+- Bahasa Indonesia/Inggris berbasis Context yang persisten
+- Custom hooks `useInput` dan `useAsync`
+- Halaman 404 dan antarmuka responsif
 
-Author: **Muhammad Reza Pahlevi Harahap**
+> API: https://notes-api.dicoding.dev/v1
